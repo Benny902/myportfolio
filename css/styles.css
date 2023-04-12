@@ -7,10 +7,8 @@ body {
 	height:100%;
 	width:100%;
 	margin:0;
-	background: #000000;
 	background: linear-gradient(140deg, rgb(0, 7, 12) 40%, rgb(0, 32, 44) 60%);
 	display: block;
-	
 }
 
 h1 {
@@ -265,7 +263,15 @@ button {
 	text-decoration:none;
 	border-radius: 50px;
 	padding:5px;
+	font-weight: bolder;
 }
 button:hover {
 	color:#E3ECFF;	
 } 
+
+.myimg {
+	transition: all .5s;
+}
+.myimg:hover{
+	transform: rotate(1turn) scale(1.5);
+}
