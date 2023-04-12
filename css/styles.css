@@ -1,14 +1,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,600); 
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+html {
+    height: 100%;
+}
 body {
 	color:rgba(255, 255, 255, 0.85);
 	font-family: 'Open Sans', sans-serif;
-	height:100%;
+	height: 100%;
 	width:100%;
 	margin:0;
 	background: linear-gradient(140deg, rgb(0, 7, 12) 40%, rgb(0, 32, 44) 60%);
 	display: block;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -243,9 +249,9 @@ span {
     border-radius: 60px;
     margin: auto;
     overflow: hidden;
-    max-width: 370px;
+    max-width: 365px;
     width:100%;
-    height: 650px;
+    height: 540px;
     box-shadow: 3px 3px 0 0 rgb(22, 22, 22), 0px 4px 0 rgb(15, 15, 15), 0px 5px 0 rgb(11, 11, 11), 0px 11px 8px  rgb(0, 83, 119), 0px 10px 20px rgb(2, 2, 2);
 }
   
