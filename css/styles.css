@@ -91,18 +91,27 @@ a.logo{
 
 @media (width > 1300px) {
   .center{margin:0 auto; width:70%;}
+  .flip-card-back {
+	margin-left: 22px;
+  }
 }
 
 @media (550px <= width <= 1300px) {
 	h1 {
 		font-size:58px;
 	}
+	.flip-card-back {
+		margin-left: 22px;
+	  }
 }
 
 @media (width < 550px) {
 	h1 {
 		font-size:38px;
 	}
+	.flip-card-back {
+		margin-left: -7px;
+	  }
 }
 
 
@@ -166,13 +175,16 @@ span {
   
   /* Style the back side */
   .flip-card-back {
-	max-width: 400px;
-	width: 80%;
+	max-width: 420px;
+	width: 100%;
+	height: 80%;
+	margin-top: 22px;
 	background-color:none;
 	color: white;
 	transform: rotateY(180deg);
-	border-radius: 50%;
-	margin-left: 20px;
+	border-radius: 20%;
+	box-shadow: 0 5px 15px rgba(0, 225, 255, 0.4);
+	border-color: hsl(205, 100%, 75%);
   }
 
   .text_1 {
