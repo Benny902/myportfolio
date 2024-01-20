@@ -297,3 +297,7 @@ button:hover {
 .myimg:hover{
 	transform: rotate(1turn) scale(1.5);
 }
+
+#my-background{
+	height: 100%;
+  }

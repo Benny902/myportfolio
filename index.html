@@ -14,7 +14,25 @@
 	<body> 
 
 <body id="home">
-        
+    <div id="my-background">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.clouds.min.js"></script>
+        <script>
+            VANTA.CLOUDS({
+              el: "#my-background",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 800.00,
+              minWidth: 200.00,
+              skyColor: 0x254d,
+                cloudColor: 0x0,
+                cloudShadowColor: 0x501818,
+                sunColor: 0x78dd9,
+                sunGlareColor: 0x15bdd4,
+                sunlightColor: 0x75c5
+            })
+        </script>
         <div style="padding:0;margin-top: 0;margin-bottom: 0;" class="wrapper" >
             <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="2000">
             <h1 style="margin-top: 0;margin-bottom: 0"><a href="#"  class="logo">Benny Shalom</a><br>
