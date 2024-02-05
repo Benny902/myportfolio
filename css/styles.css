@@ -86,14 +86,6 @@ a.logo{
 	h1 {
 		font-size:68px;
 	}
-	#my-background{
-		height:100%;
-	}
-}
-@media (width < 900px) {
-	#my-background{
-		height:200%;
-	}
 }
 
 @media (width > 1300px) {
@@ -101,9 +93,6 @@ a.logo{
   .flip-card-back {
 	margin-left: 22px;
   }
-  #my-background{
-	height:100%;
-}
 }
 
 @media (550px <= width <= 1300px) {
@@ -122,9 +111,6 @@ a.logo{
 	.flip-card-back {
 		margin-left: -7px;
 	  }
-	#my-background{
-		height:200%;
-	}
 }
 
 
@@ -323,4 +309,7 @@ button:hover {
 	transform: rotate(1turn) scale(1.5);
 }
 
-  
+#my-background{
+	display: flex;
+	height:max-content;
+}
