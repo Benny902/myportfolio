@@ -35,3 +35,18 @@ function showDivs2(n) {
   }
   x[slideIndex2-1].style.display = "block";  
 }
+
+VANTA.CLOUDS({
+  el: "#my-background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 800.00,
+  minWidth: 200.00,
+  skyColor: 0x254d,
+    cloudColor: 0x0,
+    cloudShadowColor: 0x501818,
+    sunColor: 0x78dd9,
+    sunGlareColor: 0x15bdd4,
+    sunlightColor: 0x75c5
+})
